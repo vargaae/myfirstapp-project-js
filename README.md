@@ -4,6 +4,7 @@
  
 ## APPLICATION
  - PhotoGallery Application
+ - We can select image with thumbnail selection buttons and with back and forward buttons.
 
 ## Files Included
  - index.html
