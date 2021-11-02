@@ -1,16 +1,23 @@
 {
   "name": "myfirstapp-project-js",
-  "version": "1.1.1",
+  "version": "1.0.1",
   "description": "#myFirstApp Project",
   "main": "index.js",
-  "homepage": "https://vargaae.github.io/myfirstapp-project-js",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vargaae/myfirstapp-project-js.git"
   },
   "author": "Andras Varga",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/vargaae/myfirstapp-project-js/issues"
+  },
+  "homepage": "https://vargaae.github.io/myfirstapp-project-js"
 }

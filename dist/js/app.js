@@ -75,7 +75,6 @@ loadPhoto(currentPhoto);
 // THUMBNAIL EVENT LISTENER ************************************************************************************************************************************************************
 $('.thumbnail').click((event) => {
   let currentPhoto = $(event.target).attr('data-index');
-  // let indexClicked = $(event.target).attr('data-src');
 
   loadPhoto(currentPhoto);
 });
